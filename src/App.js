@@ -1,19 +1,40 @@
-import logo from "./logo.svg";
-import "./App.css";
+import React from "react";
 import Weather from "./Weather";
+import "./App.css";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello World!</p>
-        <Weather />
-        This project was coded by Mildred Arizpe and is open sourced
-        <a href="https://github.com/MArizpe83">at GitHub</a>
-      </header>
+      <div className="container">
+        <Weather defaultCity="Amsterdam" />
+
+        <footer>
+          This project was coded by{" "}
+          <a
+            href="https://www.linkedin.com/in/mildred-arizpe-vicencio/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Mildred Arizpe
+          </a>{" "}
+          and is{" "}
+          <a
+            href="https://github.com/MArizpe83/weather-app"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            open-sourced on GitHub
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://adorable-puffpuff-7a9d86.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Netlify
+          </a>
+        </footer>
+      </div>
     </div>
   );
 }
-
-export default App;
