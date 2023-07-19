@@ -1,5 +1,6 @@
 import React from "react";
 import FormattedDate from "./FormattedDate";
+import LocalTime from "./LocalTime";
 import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
@@ -7,6 +8,9 @@ export default function WeatherInfo(props) {
   return (
     <div className="WeatherInfo">
       <h1>{props.data.city}</h1>
+      <h2 className="LocalTime">
+        <LocalTime time={props.data.time} />
+      </h2>
       <ul>
         <li>
           <FormattedDate date={props.data.date} />
@@ -19,7 +23,6 @@ export default function WeatherInfo(props) {
             <div>
               <WeatherIcon code={props.data.icon} size={55} />
             </div>
-
             <div>
               <WeatherTemperature celsius={props.data.temperature} />
             </div>
