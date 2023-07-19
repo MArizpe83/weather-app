@@ -1,5 +1,5 @@
 .App {
-  font-family: "Playfair Display";
+  font-family: "Times New Roman", Times, serif;
   background: linear-gradient(135deg, #fcfcfc 0%, #c6cfda 10%);
   opacity: 70%;
   border-radius: 20px;
@@ -16,8 +16,9 @@
 }
 
 .App footer {
+  font-family: "Times New Roman", Times, serif;
   color: #011f4d;
-  font-family: "Playfair Display";
+  font-family: "Times";
   font-size: 16px;
   margin: 10px 0;
   text-align: center;

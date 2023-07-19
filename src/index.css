@@ -1,5 +1,10 @@
 body {
-  background-image: url("images/time.jpg");
+  background: linear-gradient(
+    109.6deg,
+    rgb(41, 125, 182) 3.6%,
+    rgb(77, 58, 151) 51%,
+    rgb(103, 55, 115) 92.9%
+  );
   background-size: cover;
-  font-family: "Playfair Display";
+  font-family: "Times New Roman", Times, serif;
 }
