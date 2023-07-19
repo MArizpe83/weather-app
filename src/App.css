@@ -1,11 +1,26 @@
 .App {
+  font-family: "Playfair Display";
+  background: linear-gradient(135deg, #fcfcfc 0%, #c6cfda 10%);
+  opacity: 70%;
+  border-radius: 20px;
   max-width: 600px;
   margin: 30px auto;
+  border-color: -internal-light-dark(
+    rgb(118, 118, 118),
+    rgb(133, 133, 133),
+    0.5px
+  );
+  -webkit-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 12px 29px 81px 0px rgba(0, 0, 0, 0.75);
 }
 
 .App footer {
-  font-size: 12px;
+  color: #011f4d;
+  font-family: "Playfair Display";
+  font-size: 16px;
   margin: 10px 0;
+  text-align: center;
 }
 
 .App-header {
@@ -20,7 +35,7 @@
 }
 
 a:-webkit-any-link {
-  color: #00607a;
+  color: #7d05c2;
   text-decoration: none;
 }
 

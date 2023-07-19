@@ -1,31 +1,51 @@
 .Weather {
   font-family: "Times New Roman", Times, serif;
-  border: 2px solid #00607a;
-  padding: 16px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   border-radius: 15px;
-  color: rgb(59, 81, 95);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  box-shadow: 4px -9px 22px rgba(6, 1, 31, 0.2);
 }
 
 .Weather h1 {
+  color: #011f4d;
+  font-family: "Playfair Display";
+  font-size: 35px;
+  font-weight: 100;
+  margin: 20px 0 0 20px;
+  line-height: 29px;
+}
+.Weather h2 {
+  color: #013077;
+  font-family: "Playfair Display";
   font-size: 30px;
   font-weight: 100;
-  margin: 20px 0 0 0;
+  margin: 10px 0 0 20px;
   line-height: 29px;
 }
 
-input.form-control {
-  color: rgb(59, 81, 95);
-  border: 2px;
-  border-radius: 5px;
+form {
+  font-family: "Times New Roman", Times, serif;
+  display: block;
+  width: 100%;
+  font-size: 18px;
+  border-radius: 10px;
+  padding: 10px;
+  border-width: 0px;
+  border-style: hidden;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .Weather ul {
-  margin: 0;
-  padding: 0;
+  color: #013077;
+  margin: 10px;
+  padding: 10px;
 }
 
 .Weather li {
-  font-size: 16px;
+  color: #013077;
+  margin: 5px;
+  font-size: 25px;
   font-weight: 100;
   line-height: 19px;
   list-style: none;
@@ -41,13 +61,27 @@ input.form-control {
   margin-left: 10px;
 }
 
-.Weather canvas {
-  margin: 10px auto;
+.WeatherTemperature {
+  font-size: 25px;
+}
+
+.d-flex {
+  padding: 0 0 0 50px;
+}
+
+.btn-primary :hover {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  cursor: pointer;
+  font-size: larger;
+}
+
+span.temp {
+  padding: 10px;
 }
 
 .Weather .unit {
   color: rgb(41, 46, 49);
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   position: relative;
   line-height: 1;
