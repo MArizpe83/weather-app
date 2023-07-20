@@ -1,7 +1,7 @@
 .App {
   font-family: "Times New Roman", Times, serif;
   background: linear-gradient(135deg, #fcfcfc 0%, #c6cfda 10%);
-  opacity: 70%;
+  opacity: 0.7px;
   border-radius: 20px;
   max-width: 600px;
   margin: 30px auto;
